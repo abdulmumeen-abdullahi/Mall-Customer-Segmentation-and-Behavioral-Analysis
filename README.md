@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 ## 1.1 Project Overview
-This project analyzes customer data from a shopping mall to uncover actionable insights that can enhance business strategies. Specifically, the analysis segments customers based on their spending behavior and demographic attributes, providing a foundation for targeted marketing and improved customer experiences. The dataset was sourced from Kaggle and contains variables such as Customer ID, Age, Gender, Annual Income, and Spending Score.
+This project analyzes customer data from a shopping mall to uncover actionable insights that can enhance business strategies. Specifically, the analysis segments customers based on their spending behavior and demographic attributes, providing a foundation for targeted marketing and improved customer experiences. The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/abdallahwagih/mall-customers-segmentation) and contains variables such as Customer ID, Age, Gender, Annual Income, and Spending Score.
 
 ## 1.2 Business Context
 Understanding customer behavior is critical to the success of a shopping mall. By identifying distinct customer segments, the mall can tailor its offerings and marketing strategies to better meet the needs of its clientele. This analysis supports data-driven decision-making, ensuring resources are allocated effectively to maximize customer satisfaction and revenue.
