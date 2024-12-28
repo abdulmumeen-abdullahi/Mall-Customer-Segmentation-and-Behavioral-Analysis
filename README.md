@@ -18,7 +18,12 @@ The dataset includes the following key variables:
 The dataset was checked for missing values, outliers, and overall data integrity. The data types were appropriate for analysis, and no significant missing values were observed.
 
 ## 2.2 Data Cleaning and Transformation
-Unnecessary columns, such as Customer ID, were removed to streamline the analysis. Outliers were assessed and handled as necessary. Min-Max Scaling was applied to standardize variables like Annual Income and Spending Score, ensuring that clustering algorithms performed optimally.
+- Unnecessary columns, such as Customer ID, were removed to streamline the analysis.
+- Outliers were assessed using boxplot which revealed that there is no outlier across the features in the data set.
+
+![download](https://github.com/user-attachments/assets/93fdb9c0-214f-422d-982d-1d74e354e642)
+
+- Min-Max Scaling was applied to standardize variables like Annual Income and Spending Score for clustering to ensure that clustering algorithms performed optimally.
 
 # 3. Customer Segmentation
 ## 3.1 Segmentation Approach
@@ -42,7 +47,7 @@ Each segment/cluster represent unique characteristics:
 
 # 4. Customer Behavior Analysis
 ## 4.1 Spending Behavior
-A scatter plot of Age vs. Spending Score and Annual Income vs. Spending Score revealed that:
+- A scatter plot of Age vs. Spending Score and Annual Income vs. Spending Score revealed that:
 1.	Age vs Spending Score: There are many people who have similar ages and spending scores. It's hard to see any clear patterns or trends.
 2.	Annual Income vs Spending Score: There are many people who have similar annual income and spending scores. It's difficult to identify a strong relationship between annual income and spending score.
 
@@ -80,26 +85,31 @@ Distribution of Age, Annual Income, and Spending Score.
 ![download](https://github.com/user-attachments/assets/839ebffc-e7ea-4877-82fb-38a503bc5e83)
 
 # 6. Key Findings and Insights
-6.1 Summarize Key Findings
-High-income customers exhibit diverse spending behaviors, requiring nuanced marketing strategies.
-Younger customers have higher spending scores, making them a priority for targeted campaigns.
-Five distinct customer segments were identified, each with unique characteristics and preferences.
-6.2 Business Implications
-Implement targeted marketing campaigns for younger, high-spending customers.
-Develop exclusive offers for high-income, low-spending individuals to increase their engagement.
-Allocate resources to retain low-income, high-spending customers, ensuring their loyalty.
-7. Conclusion
-7.1 Recap of Key Findings
-This analysis identified five distinct customer segments and highlighted significant trends in spending behavior and demographics. The findings provide a solid foundation for enhancing customer engagement and revenue.
-7.2 Limitations and Future Work
+## 6.1 Summarize Key Findings
+- High-income customers exhibit diverse spending behaviors, requiring nuanced marketing strategies.
+- Younger customers have higher spending scores, making them a priority for targeted campaigns.
+- Three distinct customer segments were identified, each with unique characteristics and preferences.
+
+## 6.2 Business Implications
+- Implement targeted marketing campaigns for younger, high-spending customers.
+- Develop exclusive offers for high-income, low-spending individuals to increase their engagement.
+- Allocate resources to retain low-income, high-spending customers, ensuring their loyalty.
+
+# 7. Conclusion
+## 7.1 Recap of Key Findings
+This analysis identified three distinct customer segments and highlighted significant trends in spending behavior and demographics. The findings provide a solid foundation for enhancing customer engagement and revenue.
+
+## 7.2 Limitations and Future Work
 Limitations include the absence of variables like purchase history and psychographic data, which could provide deeper insights. Future research could incorporate additional data sources and explore longitudinal customer behavior trends.
-8. Appendix
-8.1 Data Dictionary
-Age: Numeric, customer’s age.
-Gender: Categorical, customer’s gender.
-Annual Income: Numeric, customer’s annual income in thousands of dollars.
-Spending Score: Numeric, score indicating spending behavior.
-8.2 Technical Details
-Tools Used: Python, Pandas, Seaborn, Matplotlib, Scikit-learn.
-Clustering Method: K-means with Min-Max Scaling applied to relevant variables.
-Evaluation Metrics: Silhouette score and inertia error.
+
+# 8. Appendix
+## 8.1 Data Dictionary
+- Age: Numeric, customer’s age.
+- Gender: Categorical, customer’s gender.
+- Annual Income: Numeric, customer’s annual income in thousands of dollars.
+- Spending Score: Numeric, score indicating spending behavior.
+
+## 8.2 Technical Details
+- Tools Used: Python, Pandas, Seaborn, Matplotlib, Scikit-learn.
+- Clustering Method: K-means with Min-Max Scaling applied to relevant variables.
+- Evaluation Metrics: Silhouette score and inertia error.
