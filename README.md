@@ -1,5 +1,5 @@
 # Mall Customer Segmentation and Behavioral Analysis
-
+In case the project file above returns an error, kindly click [HERE](https://nbviewer.org/github/abdulmumeen-abdullahi/Mall-Customer-Segmentation-and-Behavioral-Analysis/blob/main/Mall%20Customer%20Segmentation%20and%20Behavioral%20Analysis.ipynb).
 ## 1. Introduction
 ## 1.1 Project Overview
 This project analyzes customer data from a shopping mall to uncover actionable insights that can enhance business strategies. Specifically, the analysis segments customers based on their spending behavior and demographic attributes, providing a foundation for targeted marketing and improved customer experiences. The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/abdallahwagih/mall-customers-segmentation) and contains variables such as Customer ID, Age, Gender, Annual Income, and Spending Score.
